@@ -45,8 +45,8 @@
       >
     </nav>
 
-    <main class="xl:relative">
-      <!-- SECTION-1 -->
+    <div class="xl:relative">
+      <!-- SECTION-1 - HERO SECTION-->
       <div class="md:pt-16 md:pb-16 md:pl-11 md:pr-11 xl:pl-0 xl:pr-0 xl:w-280">
         <div
           class="pt-16 pb-12 pl-5 pr-5 flex flex-col gap-10 items-start md:pl-0 md:pr-0 md:pt-10 md:pb-10 md:w-[42.7vw] lg:pt-20 xl:pt-27.5 xl:pb-27.5 xl:w-136"
@@ -74,14 +74,14 @@
         </div>
 
         <img
-          class="bg-blue-100 h-[102.7vw] object-cover md:hidden"
+          class="h-[102.7vw] object-cover md:hidden"
           src="assets/image-hero-mobile@2x.webp"
           alt=""
         />
       </div>
 
       <img
-        class="hidden md:block md:absolute md:-top-35 md:left-[45vw] md:-z-10 lg:h-235 xl:hidden"
+        class="hidden md:block md:absolute md:-top-35 md:left-[45vw] md:-z-10 md:w-192 md:h-auto xl:hidden"
         src="assets/image-hero-tablet@2x.webp"
         alt=""
       />
@@ -91,35 +91,176 @@
         src="assets/image-hero-desktop@2x.webp"
         alt=""
       />
-    </main>
-    <!-- 
-      Check out our most popular courses!
+    </div>
 
-  Animation
-  Learn the latest animation techniques to create stunning motion 
-  design and captivate your audience.
-  Get Started
+    <!-- SECTION-2 / CARDS -->
+    <div
+      class="bg-linear-to-b from-white to-grey-linear pl-5 pr-5 pt-16 pb-20 md:pl-11 md:pr-11 md:pt-23 md:pb-36 md:-z-30 xl:w-[100vw] xl:flex xl:justify-center"
+    >
+      <div
+        class="grid grid-cols-1 gap-8 md:grid-cols-2 md:grid-rows-3 md:gap-x-6 md:gap-y-15 xl:grid-cols-3 xl:grid-rows-2 xl:w-280"
+      >
+        <!-- CARD 1/6 -->
+        <div
+          class="p-8 bg-linear-to-b from-orange to-pink rounded-2xl mb-8 md:mb-0 md:pl-8 md:pr-8 md:pt-16 md:pb-10"
+        >
+          <p
+            class="font-(family-name:--font-plus-jacarta-sans) font-extrabold text-2xl leading-[120%] text-white xl:text-[2rem]"
+          >
+            Check out our most popular courses!
+          </p>
+        </div>
 
-  Design
-  Create beautiful, usable interfaces to help shape the future of 
-  how the web looks.
-  Get Started
+        <!-- CARD 2/6 -->
+        <div class="relative mb-8 md:mb-0">
+          <div
+            class="bg-white pl-8 pr-8 pt-16 pb-10 flex flex-col gap-6 rounded-2xl items-start h-full justify-between"
+          >
+            <h3
+              class="font-(family-name:--font-plus-jacarta-sans) font-extrabold text-xl leading-[120%] text-blue-900 xl:text-2xl"
+            >
+              Animation
+            </h3>
+            <p
+              class="font-(family-name:--font-plus-jacarta-sans) font-bold text-base leading-[150%] text-grey md:text-lg md:font-medium"
+            >
+              Learn the latest animation techniques to create stunning motion
+              design and captivate your audience.
+            </p>
+            <a
+              class="font-(family-name:--font-plus-jacarta-sans) font-bold text-lg leading-[150%] text-pink-600 hover:underline hover:underline-offset-8 hover:decoration-2 active:text-pink-300 focus:outline-8 focus:outline-pink duration-300"
+              aria-label="Get Started"
+              href="#"
+              >Get Started</a
+            >
+          </div>
+          <img
+            class="absolute -top-7 left-8"
+            src="assets/icon-animation.svg"
+            alt=""
+          />
+        </div>
 
-  Photography
-  Explore critical fundamentals like lighting, composition, and focus 
-  to capture exceptional photos.
-  Get Started
+        <!-- CARD 3/6 -->
+        <div class="relative mb-8 md:mb-0">
+          <div
+            class="bg-white pl-8 pr-8 pt-16 pb-10 flex flex-col gap-6 rounded-2xl items-start h-full justify-between"
+          >
+            <h3
+              class="font-(family-name:--font-plus-jacarta-sans) font-extrabold text-xl leading-[120%] text-blue-900 xl:text-2xl"
+            >
+              Design
+            </h3>
+            <p
+              class="font-(family-name:--font-plus-jacarta-sans) font-bold text-base leading-[150%] text-grey md:text-lg md:font-medium"
+            >
+              Create beautiful, usable interfaces to help shape the future of
+              how the web looks.
+            </p>
+            <a
+              class="font-(family-name:--font-plus-jacarta-sans) font-bold text-lg leading-[150%] text-pink-600 hover:underline hover:underline-offset-8 hover:decoration-2 active:text-pink-300 focus:outline-8 focus:outline-pink duration-300"
+              aria-label="Get Started"
+              href="#"
+              >Get Started</a
+            >
+          </div>
+          <img
+            class="absolute -top-7 left-8"
+            src="assets/icon-design.svg"
+            alt=""
+          />
+        </div>
 
-  Crypto
-  All you need to know to get started investing in crypto. Go from beginner 
-  to advanced with this 54 hour course.
-  Get Started
+        <!-- CARD 4/6 -->
+        <div class="relative mb-8 md:mb-0">
+          <div
+            class="bg-white pl-8 pr-8 pt-16 pb-10 flex flex-col gap-6 rounded-2xl items-start h-full justify-between"
+          >
+            <h3
+              class="font-(family-name:--font-plus-jacarta-sans) font-extrabold text-xl leading-[120%] text-blue-900 xl:text-2xl"
+            >
+              Photography
+            </h3>
+            <p
+              class="font-(family-name:--font-plus-jacarta-sans) font-bold text-base leading-[150%] text-grey md:text-lg md:font-medium"
+            >
+              Explore critical fundamentals like lighting, composition, and
+              focus to capture exceptional photos.
+            </p>
+            <a
+              class="font-(family-name:--font-plus-jacarta-sans) font-bold text-lg leading-[150%] text-pink-600 hover:underline hover:underline-offset-8 hover:decoration-2 active:text-pink-300 focus:outline-8 focus:outline-pink duration-300"
+              aria-label="Get Started"
+              href="#"
+              >Get Started</a
+            >
+          </div>
+          <img
+            class="absolute -top-7 left-8"
+            src="assets/icon-photography.svg"
+            alt=""
+          />
+        </div>
 
-  Business
-  A step-by-step playbook to help you start, scale, and sustain your business 
-  without outside investment.
-  Get Started
+        <!-- CARD 5/6 -->
+        <div class="relative mb-8 md:m-0">
+          <div
+            class="bg-white pl-8 pr-8 pt-16 pb-10 flex flex-col gap-6 rounded-2xl items-start h-full justify-between"
+          >
+            <h3
+              class="font-(family-name:--font-plus-jacarta-sans) font-extrabold text-xl leading-[120%] text-blue-900 xl:text-2xl"
+            >
+              Crypto
+            </h3>
+            <p
+              class="font-(family-name:--font-plus-jacarta-sans) font-bold text-base leading-[150%] text-grey md:text-lg md:font-medium"
+            >
+              All you need to know to get started investing in crypto. Go from
+              beginner to advanced with this 54 hour course.
+            </p>
+            <a
+              class="font-(family-name:--font-plus-jacarta-sans) font-bold text-lg leading-[150%] text-pink-600 hover:underline hover:underline-offset-8 hover:decoration-2 active:text-pink-300 focus:outline-8 focus:outline-pink duration-300"
+              aria-label="Get Started"
+              href="#"
+              >Get Started</a
+            >
+          </div>
+          <img
+            class="absolute -top-7 left-8"
+            src="assets/icon-crypto.svg"
+            alt=""
+          />
+        </div>
 
-  Get Started -->
+        <!-- CARD 6/6 -->
+        <div class="relative">
+          <div
+            class="bg-white pl-8 pr-8 pt-16 pb-10 flex flex-col gap-6 rounded-2xl items-start h-full justify-between"
+          >
+            <h3
+              class="font-(family-name:--font-plus-jacarta-sans) font-extrabold text-xl leading-[120%] text-blue-900 xl:text-2xl"
+            >
+              Business
+            </h3>
+            <p
+              class="font-(family-name:--font-plus-jacarta-sans) font-bold text-base leading-[150%] text-grey md:text-lg md:font-medium"
+            >
+              A step-by-step playbook to help you start, scale, and sustain your
+              business without outside investment.
+            </p>
+            <a
+              class="font-(family-name:--font-plus-jacarta-sans) font-bold text-lg leading-[150%] text-pink-600 hover:underline hover:underline-offset-8 hover:decoration-2 active:text-pink-300 focus:outline-8 focus:outline-pink duration-300"
+              aria-label="Get Started"
+              href="#"
+              >Get Started</a
+            >
+            <img
+              class="absolute -top-7 left-8"
+              src="assets/icon-business.svg"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>

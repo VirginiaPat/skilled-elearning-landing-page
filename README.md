@@ -25,7 +25,7 @@ Users should be able to:
 
 ![Mobile screenshot](./Screenshot-mobile.png)
 ![Tablet screenshot](./Screenshot-tablet.png)
-![Desktop screenshot](./Screenshot-destop.png)
+![Desktop screenshot](./Screenshot-desktop.png)
 
 ### Links
 

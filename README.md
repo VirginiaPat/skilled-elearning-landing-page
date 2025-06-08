@@ -44,12 +44,8 @@ Users should be able to:
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
-
-## Acknowledgments
-
 - Frontend Mentor - [@VirginiaPat](https://www.frontendmentor.io/profile/VirginiaPat)
 - Github - [VirginiaPat ](https://github.com/VirginiaPat)
 - Netlify - [VirginiaPat](https://app.netlify.com/teams/virginia-patrika/sites)
+
+## Acknowledgments
